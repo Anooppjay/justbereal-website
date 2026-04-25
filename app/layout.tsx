@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   title: "Just Be Real",
   description: "A space for authentic human connection.",
   metadataBase: new URL("https://justbereal.app"),
+  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({

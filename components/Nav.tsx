@@ -9,16 +9,6 @@ export default function Nav() {
         </Link>
         <ul className="flex items-center gap-8 text-sm font-sans font-light tracking-widest uppercase">
           <li>
-            <Link href="/about" className="hover:opacity-60 transition-opacity">
-              About
-            </Link>
-          </li>
-          <li>
-            <Link href="/how-it-works" className="hover:opacity-60 transition-opacity">
-              How it works
-            </Link>
-          </li>
-          <li>
             <Link href="/support" className="hover:opacity-60 transition-opacity">
               Support
             </Link>
