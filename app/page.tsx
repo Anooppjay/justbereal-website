@@ -11,6 +11,9 @@ export default function Home() {
         <h1 className="font-serif font-bold text-7xl sm:text-8xl leading-none tracking-tight mb-6">
           Just Be Real.
         </h1>
+        <p className="font-serif italic font-light text-lg sm:text-xl text-white/40 mb-8">
+          About time to have some real conversations
+        </p>
         <p className="font-sans font-light text-xl sm:text-2xl tracking-widest uppercase text-white/60">
           Authentic human connections.
         </p>
