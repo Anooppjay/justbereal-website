@@ -1,5 +1,5 @@
-export const metadata = {
-  title: "Just Be Real — Authentic human connections.",
+﻿export const metadata = {
+  title: "Just Be Real â€” Authentic human connections.",
 };
 
 export default function Home() {
@@ -8,12 +8,12 @@ export default function Home() {
 
       {/* Hero */}
       <section className="max-w-3xl mx-auto px-6 pt-32 pb-24">
+        <p className="font-serif italic font-light text-2xl sm:text-3xl text-white/80 mb-10">
+          Time to have some real conversations
+        </p>
         <h1 className="font-serif font-bold text-7xl sm:text-8xl leading-none tracking-tight mb-6">
           Just Be Real.
         </h1>
-        <p className="font-serif italic font-light text-lg sm:text-xl text-white/40 mb-8">
-          About time to have some real conversations
-        </p>
         <p className="font-sans font-light text-xl sm:text-2xl tracking-widest uppercase text-white/60">
           Authentic human connections.
         </p>
@@ -25,7 +25,7 @@ export default function Home() {
       <section className="max-w-3xl mx-auto px-6 py-24 space-y-6">
         <p className="font-sans font-light text-lg leading-relaxed text-white/80">
           This is not a dating app. This is a space to find people you actually
-          vibe with — based on who you are, not how you swipe.
+          vibe with â€” based on who you are, not how you swipe.
         </p>
         <p className="font-sans font-light text-lg leading-relaxed text-white/80">
           We built an AI that listens deep. It learns who you actually are
