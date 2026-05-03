@@ -13,27 +13,22 @@ export default function HowItWorks() {
       <section className="space-y-4">
         <h2 className="font-serif font-bold text-3xl">Why this works</h2>
         <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-          The way to know someone is conversation. Not a profile, not a photo grid, not a swipe.
-          We built Just Be Real around that single idea — and built the tools to make real
-          conversations possible at scale.
+          The way to know someone for who they actually are is through real conversations. Not just a curated profile, not a photo grid, not a swipe, or some catchy AI generated captions that anyone now can create. It&apos;s definitely not through playing games or fighting desperately for attention. We built Just Be Real around that single idea — and built the tools to make honest, engaging conversations possible at scale.
         </p>
         <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-          This page explains how.
+          This explanation of how is here.
         </p>
       </section>
 
       <hr className="border-white/10" />
 
       <section className="space-y-4">
-        <h2 className="font-serif font-bold text-3xl">Your avatar learns who you actually are</h2>
+        <h2 className="font-serif font-bold text-3xl">Your avatar builds on who you actually are</h2>
         <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-          Most apps ask you to perform a version of yourself. Pick a photo, write a bio, optimize
-          for matches. We don&apos;t.
+          Most apps ask you to curate a version of yourself. Pick a photo, write a bio, optimize for matches. We don&apos;t.
         </p>
         <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-          Instead, you talk to Poona — an AI trained to listen deep and not tell you what to do.
-          Your avatar learns the texture of who you are through these conversations. Your avatar is
-          what other people meet first. Not the curated version. The real one.
+          Instead, you talk to Poona — an AI trained to listen deep and learn, not tell you what to do. Your avatar discovers the texture of who you are through these conversations. Your avatar is what other people meet first. Not the idealised version. The real one.
         </p>
       </section>
 

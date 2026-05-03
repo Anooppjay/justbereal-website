@@ -11,7 +11,7 @@ export default function Home() {
         className="relative w-full h-[60vh] sm:h-[70vh] bg-[url('/hero.jpg')] bg-cover bg-center flex items-start justify-center pt-[10%]"
       >
         <div className="absolute inset-0 bg-black/50" />
-        <p className="relative font-sans font-light text-3xl sm:text-4xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
+        <p className="relative font-sans font-bold text-3xl sm:text-4xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
           Time to have some real conversations
         </p>
       </div>
