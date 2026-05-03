@@ -1,5 +1,5 @@
-﻿export const metadata = {
-  title: "Just Be Real â€” Authentic human connections.",
+export const metadata = {
+  title: "Just Be Real — Authentic human connections.",
 };
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
         className="relative w-full h-[60vh] sm:h-[70vh] bg-[url('/hero.jpg')] bg-cover bg-center flex items-start justify-center pt-[10%]"
       >
         <div className="absolute inset-0 bg-black/50" />
-        <p className="relative font-serif italic font-light text-2xl sm:text-3xl text-white drop-shadow-md text-center px-6">
+        <p className="relative font-sans font-light text-3xl sm:text-4xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
           Time to have some real conversations
         </p>
       </div>
@@ -29,20 +29,52 @@ export default function Home() {
       <hr className="border-white/10 max-w-3xl mx-auto" />
 
       {/* Body */}
-      <section className="max-w-3xl mx-auto px-6 py-24 space-y-6">
-        <p className="font-sans font-light text-lg leading-relaxed text-white/80">
-          This is not a dating app. This is a space to find people you actually
-          vibe with â€” based on who you are, not how you swipe.
-        </p>
-        <p className="font-sans font-light text-lg leading-relaxed text-white/80">
-          We built an AI that listens deep. It learns who you actually are
-          through conversation. Then it does the boring work of finding people
-          you&apos;d genuinely connect with.
-        </p>
-        <p className="font-sans font-light text-lg leading-relaxed text-white/80">
-          You stay in control. You set your own thresholds. You decide who gets
-          through.
-        </p>
+      <section className="max-w-3xl mx-auto px-6 py-24 space-y-16">
+
+        <div>
+          <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
+            Quality conversations have been at centre stage
+          </h2>
+          <p className="font-sans font-light text-lg leading-relaxed text-white/80">
+            of civilisation for a while now. It&apos;s how we get to know people. Real convos is how
+            we decide if someone is worth your time and energy. The tools that we have to keep us
+            connected though, has contributed more to the noise to a point they&apos;re a distraction
+            now and real connections seems hard.
+          </p>
+        </div>
+
+        <div>
+          <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
+            We started with the vision of a platform
+          </h2>
+          <p className="font-sans font-light text-lg leading-relaxed text-white/80">
+            that empowers real conversations. And the ability to connect people based on their
+            capacity to hold real conversations. And how much you want to see and be seen..
+          </p>
+        </div>
+
+        <div>
+          <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
+            We then built an AI safety stack
+          </h2>
+          <p className="font-sans font-light text-lg leading-relaxed text-white/80">
+            that listens deep without moderating and telling you what to do. It learns who you
+            actually are without implementing a predatory algorithm to exploit desperation of users.
+            Then it does the boring task of finding you people you&apos;d genuinely vibe with and
+            dealing with the cold &ldquo;Hey whaddup&rdquo; messages
+          </p>
+        </div>
+
+        <div>
+          <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
+            You stay in control
+          </h2>
+          <p className="font-sans font-light text-lg leading-relaxed text-white/80">
+            You set your own thresholds. You decide who gets through. So that you meet people as who
+            they are at where you are. No compromises. Welcome to the world of being Real
+          </p>
+        </div>
+
       </section>
 
       <hr className="border-white/10 max-w-3xl mx-auto" />
@@ -65,44 +97,6 @@ export default function Home() {
             Notify me
           </button>
         </form>
-      </section>
-
-      <hr className="border-white/10 max-w-3xl mx-auto" />
-
-      {/* Three values */}
-      <section className="max-w-3xl mx-auto px-6 py-24 space-y-20">
-
-        <div>
-          <h2 className="font-serif font-bold text-4xl sm:text-5xl mb-4">
-            Honesty over performance.
-          </h2>
-          <p className="font-sans font-light text-lg leading-relaxed text-white/80">
-            Most apps reward you for performing. This one rewards you for being real.
-          </p>
-        </div>
-
-        <hr className="border-white/10" />
-
-        <div>
-          <h2 className="font-serif font-bold text-4xl sm:text-5xl mb-4">
-            Depth over volume.
-          </h2>
-          <p className="font-sans font-light text-lg leading-relaxed text-white/80">
-            You don&apos;t need a thousand matches. You need one or two who actually see you.
-          </p>
-        </div>
-
-        <hr className="border-white/10" />
-
-        <div>
-          <h2 className="font-serif font-bold text-4xl sm:text-5xl mb-4">
-            Power to decide.
-          </h2>
-          <p className="font-sans font-light text-lg leading-relaxed text-white/80">
-            You set the bar. People only get through if they meet it.
-          </p>
-        </div>
-
       </section>
 
     </div>
