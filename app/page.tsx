@@ -71,7 +71,10 @@ export default function Home() {
           </h2>
           <p className="font-sans font-light text-lg leading-relaxed text-white/80">
             You set your own thresholds. You decide who gets through. So that you meet people as who
-            they are at where you are. No compromises. Welcome to the world of being Real
+            they are at where you are. No compromises.
+          </p>
+          <p className="font-serif font-bold text-3xl sm:text-4xl text-center mt-12">
+            Welcome to the world of being Real
           </p>
         </div>
 
