@@ -6,11 +6,18 @@ export default function Home() {
   return (
     <div className="bg-black text-white">
 
-      {/* Hero */}
-      <section className="max-w-3xl mx-auto px-6 pt-32 pb-24">
-        <p className="font-serif italic font-light text-2xl sm:text-3xl text-white/80 mb-10">
+      {/* Hero — full-width image with motto overlay */}
+      <div
+        className="relative w-full h-[60vh] sm:h-[70vh] bg-[url('/hero.jpg')] bg-cover bg-center flex items-start justify-center pt-[10%]"
+      >
+        <div className="absolute inset-0 bg-black/50" />
+        <p className="relative font-serif italic font-light text-2xl sm:text-3xl text-white drop-shadow-md text-center px-6">
           Time to have some real conversations
         </p>
+      </div>
+
+      {/* Heading + tagline, centred */}
+      <section className="max-w-3xl mx-auto px-6 pt-16 pb-24 text-center">
         <h1 className="font-serif font-bold text-7xl sm:text-8xl leading-none tracking-tight mb-6">
           Just Be Real.
         </h1>
