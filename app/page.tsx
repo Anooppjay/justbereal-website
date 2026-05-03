@@ -35,7 +35,7 @@ export default function Home() {
           <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
             Quality conversations have been at centre stage
           </h2>
-          <p className="font-sans font-light text-lg leading-relaxed text-white/80">
+          <p className="font-sans font-light text-xl leading-relaxed text-white/80">
             of civilisation for a while now. It&apos;s how we get to know people. Real convos is how
             we decide if someone is worth your time and energy. The tools that we have to keep us
             connected though, has contributed more to the noise to a point they&apos;re a distraction
@@ -47,7 +47,7 @@ export default function Home() {
           <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
             We started with the vision of a platform
           </h2>
-          <p className="font-sans font-light text-lg leading-relaxed text-white/80">
+          <p className="font-sans font-light text-xl leading-relaxed text-white/80">
             that empowers real conversations. And the ability to connect people based on their
             capacity to hold real conversations. And how much you want to see and be seen..
           </p>
@@ -57,7 +57,7 @@ export default function Home() {
           <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
             We then built an AI safety stack
           </h2>
-          <p className="font-sans font-light text-lg leading-relaxed text-white/80">
+          <p className="font-sans font-light text-xl leading-relaxed text-white/80">
             that listens deep without moderating and telling you what to do. It learns who you
             actually are without implementing a predatory algorithm to exploit desperation of users.
             Then it does the boring task of finding you people you&apos;d genuinely vibe with and
@@ -69,7 +69,7 @@ export default function Home() {
           <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
             You stay in control
           </h2>
-          <p className="font-sans font-light text-lg leading-relaxed text-white/80">
+          <p className="font-sans font-light text-xl leading-relaxed text-white/80">
             You set your own thresholds. You decide who gets through. So that you meet people as who
             they are at where you are. No compromises.
           </p>
