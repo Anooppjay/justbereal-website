@@ -11,7 +11,7 @@ export default function Home() {
         className="relative w-full h-[60vh] sm:h-[70vh] bg-[url('/hero.jpg')] bg-cover bg-center flex items-start justify-center pt-[10%]"
       >
         <div className="absolute inset-0 bg-black/50" />
-        <p className="relative font-sans font-light text-3xl sm:text-4xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
+        <p className="relative font-sans font-bold text-2xl sm:text-3xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
           Time to have some real conversations
         </p>
       </div>
@@ -36,10 +36,27 @@ export default function Home() {
             Quality conversations have been at centre stage
           </h2>
           <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-            of civilisation for a while now. It&apos;s how we get to know people. Real convos is how
-            we decide if someone is worth your time and energy. The tools that we have to keep us
-            connected though, has contributed more to the noise to a point they&apos;re a distraction
-            now and real connections seems hard.
+            of civilisation for a while now. It&apos;s how we get to know people, make connections,
+            express ourselves, build communities and experience the journey of the outwards world..
+            Conversations bring humans together and still is one of the most beautiful expressions
+            of humanity
+          </p>
+          <p className="font-sans font-light text-xl leading-relaxed text-white/80 mt-6">
+            We need spaces that celebrates that expression and freedom. And also need these spaces
+            to remain safe for everyone. The key, apparently is actually very simple: Accountability
+            in interactions
+          </p>
+          <p className="font-sans font-light text-xl leading-relaxed text-white/80 mt-6">
+            Real convos are also the most reliable way to see if someone possibly vibe with you /
+            worth your time and energy.
+          </p>
+          <p className="font-sans font-light text-xl leading-relaxed text-white/80 mt-6">
+            The tools that we currently have to keep us connected though, has contributed more to
+            the noise to a point they&apos;re a distraction now and real connections seems hard.
+          </p>
+          <p className="font-sans font-light text-xl leading-relaxed text-white/80 mt-6">
+            A new platform is justified only if it address all these challenges. Also can&apos;t be
+            sucking the life out of the process.
           </p>
         </div>
 
