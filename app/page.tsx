@@ -1,3 +1,5 @@
+import BetaSignupForm from './components/BetaSignupForm';
+
 export const metadata = {
   title: "Just Be Real — Authentic human connections.",
 };
@@ -99,24 +101,22 @@ export default function Home() {
 
       <hr className="border-white/10 max-w-3xl mx-auto" />
 
-      {/* CTA */}
-      <section className="max-w-3xl mx-auto px-6 py-24">
-        <p className="font-sans font-light text-sm tracking-widest uppercase text-white/40 mb-8">
-          Coming soon to Google Play Store.
-        </p>
-        <form className="flex flex-col sm:flex-row gap-4 max-w-md">
-          <input
-            type="email"
-            placeholder="Get notified when we launch"
-            className="flex-1 bg-transparent border border-white/20 rounded-none px-4 py-3 font-sans font-light text-sm text-white placeholder-white/30 focus:outline-none focus:border-white/60 transition-colors"
-          />
-          <button
-            type="submit"
-            className="font-sans font-light text-sm tracking-widest uppercase border border-white/20 px-6 py-3 hover:bg-white hover:text-black transition-colors"
-          >
-            Notify me
-          </button>
-        </form>
+      {/* Beta signup — Block 1: image banner with overlay */}
+      <div className="relative w-full h-[40vh] sm:h-[50vh] bg-[url('/hero2.jpg')] bg-cover bg-center flex items-center justify-center">
+        <div className="absolute inset-0 bg-black/50" />
+        <div className="relative text-center px-6 max-w-2xl mx-auto">
+          <h2 className="font-serif font-bold text-4xl sm:text-5xl text-white mb-4">Beta Access</h2>
+          <p className="font-serif text-white text-base sm:text-lg leading-relaxed">
+            For the conversationists, the light bringers — the ones who still believe in magic.
+            Real connections start somewhere, start by igniting those straight up must have conversations.
+            Get beta access.
+          </p>
+        </div>
+      </div>
+
+      {/* Beta signup — Block 2: form */}
+      <section className="max-w-3xl mx-auto px-6 py-16 flex justify-center">
+        <BetaSignupForm />
       </section>
 
     </div>
