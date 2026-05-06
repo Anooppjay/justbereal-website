@@ -65,8 +65,7 @@ export default function Home() {
             We started with the vision of a platform
           </h2>
           <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-            that empowers real conversations. And the ability to connect people based on their
-            capacity to hold real conversations. And how much you want to see and be seen..
+            that empowers real conversations. A platform moderated by users and still holds the ability to connect people based on their capacity to hold real conversations. And how much we want to see and be seen..
           </p>
         </div>
 
