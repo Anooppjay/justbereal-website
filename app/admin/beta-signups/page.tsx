@@ -1,9 +1,12 @@
-import { kv } from '@vercel/kv';
+import { createClient } from 'redis';
 
 export const dynamic = 'force-dynamic';
 
 export default async function BetaSignupsPage() {
-  const signups = await kv.lrange('beta_signups', 0, -1);
+  const client = createClient({ url: process.env.REDIS_URL });
+  await client.connect();
+  const signups = await client.lRange('beta_signups', 0, -1);
+  await client.disconnect();
   const parsed = signups.map((s: any) =>
     typeof s === 'string' ? JSON.parse(s) : s
   );

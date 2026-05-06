@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { kv } from '@vercel/kv';
+import { createClient } from 'redis';
 
 export async function POST(req: NextRequest) {
+  let client;
   try {
     const { email, code } = await req.json();
 
@@ -25,11 +26,17 @@ export async function POST(req: NextRequest) {
       timestamp: new Date().toISOString(),
     };
 
-    await kv.lpush('beta_signups', JSON.stringify(signup));
+    client = createClient({ url: process.env.REDIS_URL });
+    await client.connect();
+    await client.lPush('beta_signups', JSON.stringify(signup));
+    await client.disconnect();
 
     return NextResponse.json({ success: true });
   } catch (err) {
     console.error('Beta signup error:', err);
+    if (client) {
+      try { await client.disconnect(); } catch {}
+    }
     return NextResponse.json({ error: 'Server error' }, { status: 500 });
   }
 }
