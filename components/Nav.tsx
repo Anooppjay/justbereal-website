@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
@@ -14,9 +15,9 @@ export default function Nav() {
 
   return (
     <header className="w-full border-b border-white/10 relative">
-      <nav className="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
-        <Link href="/" className="font-serif text-2xl font-bold tracking-wide">
-          justbereal
+      <nav className="max-w-5xl mx-auto px-6 py-2 flex items-center justify-between">
+        <Link href="/" className="flex items-center">
+          <Image src="/logo.png" alt="Just Be Real" width={80} height={80} priority />
         </Link>
 
         {/* Desktop links */}
@@ -46,10 +47,10 @@ export default function Nav() {
           <div className="flex items-center justify-between mb-12">
             <Link
               href="/"
-              className="font-serif text-2xl font-bold tracking-wide"
+              className="flex items-center"
               onClick={() => setOpen(false)}
             >
-              justbereal
+              <Image src="/logo.png" alt="Just Be Real" width={80} height={80} priority />
             </Link>
             <button
               className="text-2xl leading-none"
