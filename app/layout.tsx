@@ -23,6 +23,13 @@ export const metadata: Metadata = {
   description: "A space for authentic human connection.",
   metadataBase: new URL("https://justbereal.app"),
   robots: { index: false, follow: false },
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: '/apple-touch-icon.png',
+  },
 };
 
 export default function RootLayout({
