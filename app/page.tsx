@@ -67,7 +67,7 @@ export default function Home() {
             We started with the vision of a platform
           </h2>
           <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-            that empowers real conversations. A platform moderated by users and still holds the ability to connect people based on their capacity to hold real conversations. And how much we want to see and be seen..
+            that empowers real connections through communication. A platform upholding user privacy - not extracting all the user data available and selling it in the first chance. Operate using minimal device access, but engaging with participation and intend instead. With the ability to connect people based on their capacity to hold real conversations and how much they prefer to see and be seen..
           </p>
         </div>
 
@@ -88,7 +88,7 @@ export default function Home() {
             You stay in control
           </h2>
           <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-            You set your own thresholds. You decide who gets through. You meet people as who they are at where you are. No compromises. And maybe even finally make meeting strangers fun and exciting for everyone.
+            Yes its still AI assisted, but this might probably turn out to be the best usage of AI. Here it helps you set your own thresholds for your space. You decide who gets through. You meet people as who they are at where you are. No compromises. And maybe finally make even meeting strangers fun and exciting for everyone.
           </p>
           <p className="font-serif font-bold text-3xl sm:text-4xl text-center mt-12">
             Welcome to the world of being Real
@@ -103,11 +103,9 @@ export default function Home() {
       <div className="relative w-full h-[40vh] sm:h-[50vh] bg-[url('/hero2.jpg')] bg-cover bg-center flex items-center justify-center">
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative text-center px-6 max-w-2xl mx-auto">
-          <h2 className="font-serif font-bold text-4xl sm:text-5xl text-white mb-4">Beta Access</h2>
+          <h2 className="font-serif font-bold text-4xl sm:text-5xl text-white mb-4">For the conversationists</h2>
           <p className="font-serif text-white text-base sm:text-lg leading-relaxed">
-            For the conversationists, the light bringers — the ones who still believe in magic.
-            Real connections start somewhere, start by igniting those straight up must have conversations.
-            Get beta access.
+            The light bringers those who still believes in magic. Real connections start somewhere, let&apos;s begin by igniting those conversations that are straight up must have.
           </p>
         </div>
       </div>
