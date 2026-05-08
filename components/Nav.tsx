@@ -15,9 +15,9 @@ export default function Nav() {
 
   return (
     <header className="w-full border-b border-white/10 relative">
-      <nav className="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
+      <nav className="max-w-5xl mx-auto px-6 py-2 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <Image src="/logo.png" alt="Just Be Real" width={40} height={40} priority />
+          <Image src="/logo.png" alt="Just Be Real" width={80} height={80} priority />
         </Link>
 
         {/* Desktop links */}
@@ -50,7 +50,7 @@ export default function Nav() {
               className="flex items-center"
               onClick={() => setOpen(false)}
             >
-              <Image src="/logo.png" alt="Just Be Real" width={40} height={40} priority />
+              <Image src="/logo.png" alt="Just Be Real" width={80} height={80} priority />
             </Link>
             <button
               className="text-2xl leading-none"

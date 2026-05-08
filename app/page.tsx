@@ -104,7 +104,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative text-center px-6 max-w-2xl mx-auto">
           <h2 className="font-serif font-bold text-4xl sm:text-5xl text-white mb-4">For the conversationists</h2>
-          <p className="font-serif text-white text-base sm:text-lg leading-relaxed">
+          <p className="font-sans font-light text-xl leading-relaxed text-white/80">
             The light bringers those who still believes in magic. Real connections start somewhere, let&apos;s begin by igniting those conversations that are straight up must have.
           </p>
         </div>
