@@ -1,5 +1,5 @@
 ﻿import type { Metadata } from "next";
-import { Cormorant_Garamond, Josefin_Sans } from "next/font/google";
+import { Cormorant_Garamond, Josefin_Sans, Tenor_Sans, Poppins, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -15,6 +15,27 @@ const josefin = Josefin_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "600"],
   variable: "--font-josefin",
+  display: "swap",
+});
+
+const tenorSans = Tenor_Sans({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-tenor",
+  display: "swap",
+});
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+  variable: "--font-poppins",
+  display: "swap",
+});
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  weight: ["400", "600"],
+  variable: "--font-open-sans",
   display: "swap",
 });
 
@@ -38,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${josefin.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${josefin.variable} ${tenorSans.variable} ${poppins.variable} ${openSans.variable}`}>
       <body className="antialiased bg-black text-white min-h-screen flex flex-col">
         <Nav />
         <main className="flex-1">{children}</main>

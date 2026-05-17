@@ -13,7 +13,7 @@ export default function Home() {
         className="relative w-full h-[60vh] sm:h-[70vh] bg-[url('/hero.jpg')] bg-cover bg-center flex items-start justify-center pt-[10%]"
       >
         <div className="absolute inset-0 bg-black/50" />
-        <p className="relative font-sans font-bold text-2xl sm:text-3xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
+        <p className="relative font-tenor text-2xl sm:text-3xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
           Time to have some real conversations
         </p>
       </div>
@@ -30,72 +30,83 @@ export default function Home() {
 
       <hr className="border-white/10 max-w-3xl mx-auto" />
 
-      {/* Body */}
-      <section className="max-w-3xl mx-auto px-6 py-24 space-y-16">
+      {/* Body — 7 sections */}
+      <section className="max-w-3xl mx-auto px-6 py-24 space-y-20">
 
-        <div>
-          <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
-            Quality conversations have been at centre stage
+        <div className="text-center">
+          <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
+            Conversations has been at centre stage
           </h2>
-          <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-            of civilisation for a while now. It&apos;s how we get to know people, make connections,
-            express ourselves, build communities and experience the journey of the outwards world..
-            Conversations bring humans together and still is one of the most beautiful expressions
-            of humanity
-          </p>
-          <p className="font-sans font-light text-xl leading-relaxed text-white/80 mt-6">
-            We need spaces that celebrates that expression and freedom. And also need these spaces
-            to remain safe for everyone. The key, apparently is actually very simple: Accountability
-            in interactions
-          </p>
-          <p className="font-sans font-light text-xl leading-relaxed text-white/80 mt-6">
-            Real convos are also the most reliable way to see if someone possibly vibe with you /
-            worth your time and energy.
-          </p>
-          <p className="font-sans font-light text-xl leading-relaxed text-white/80 mt-6">
-            The tools that we currently have to keep us connected though, has contributed more to
-            the noise to a point they&apos;re a distraction now and real connections seems hard.
-          </p>
-          <p className="font-sans font-light text-xl leading-relaxed text-white/80 mt-6">
-            A new platform is justified only if it address all these challenges. Also can&apos;t be
-            sucking the life out of the process.
+          <p className="font-open-sans text-lg sm:text-xl leading-relaxed text-white/80">
+            of civilisation for a while now. It&apos;s how we used to know people, express ourselves, learn, play, debate, fight, love, care, inspire, build communities and experience the journey of the outwards world.. Conversations bring humans together and remains one of the most beautiful expressions of humanity. The tools that we developed to keep us connected though, has contributed more to the isolation of the individual lately, at scale. In a carefully crafted bubble of feed made by exploitative algorithms thats trying to monetise every tiny bit of information they can find about you and suggest your next purchase or subscription, You get uninspired, disconnected..
           </p>
         </div>
 
-        <div>
-          <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
-            We started with the vision of a platform
+        <div className="text-center">
+          <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
+            You don&apos;t know whats real anymore
           </h2>
-          <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-            that empowers real connections through communication. A platform upholding user privacy - not extracting all the user data available and selling it in the first chance. Operate using minimal device access, but engaging with participation and intend instead. With the ability to connect people based on their capacity to hold real conversations and how much they prefer to see and be seen..
+          <p className="font-open-sans text-lg sm:text-xl leading-relaxed text-white/80">
+            and you&apos;re tired of this shit across platforms. You don&apos;t have time or energy for fake and shallow interactions. You&apos;ve already started dreaming about a peaceful life on a cozy mountain top/beach cabin with a dog. You cant be bothered enough to be constantly worrying something is AI or not. And what kind of unhealed issue you&apos;re dealing with, in the next interesting human you&apos;re coming across.
           </p>
         </div>
 
-        <div>
-          <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
-            We then built an AI safety stack
+        <div className="text-center">
+          <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
+            The hopeful part is, theres still nothing else like a good conversation with someone you actually vibe with and trust
           </h2>
-          <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-            that listens deep without moderating and telling you what to do. It learns who you
-            actually are without implementing a predatory algorithm to exploit desperation of users.
-            Then it does the boring task of finding you people you&apos;d genuinely vibe with and
-            dealing with the cold &ldquo;Hey whaddup&rdquo; messages
+          <p className="font-open-sans text-lg sm:text-xl leading-relaxed text-white/80">
+            We needed to bring back the trust. The key, apparently is actually very simple: Accountability in interactions. We need spaces that celebrates unmoderated expression and freedom. We also need these spaces to remain safe for everyone. We need to bring the change we so desperately need and do it together.
           </p>
         </div>
 
-        <div>
-          <h2 className="font-serif font-bold text-2xl sm:text-3xl mb-4">
+        <div className="text-center">
+          <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
+            It started with the vision of a platform
+          </h2>
+          <p className="font-open-sans text-lg sm:text-xl leading-relaxed text-white/80">
+            that empowers real connections through real communication. A new platform that addresses all these challenges without sucking the life out of the process. A platform upholding user privacy. Operate using minimal device access &amp; user data tracking but engaging with participation and intend instead. With the ability to connect people based on their capacity to hold real conversations and how much they prefer to see and be seen..
+          </p>
+        </div>
+
+        <div className="text-center">
+          <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
+            They say all AI is not bad
+          </h2>
+          <p className="font-open-sans text-lg sm:text-xl leading-relaxed text-white/80">
+            So we built an AI safety stack that might actually turn out to be the best usage of AI - To cut the noise out.
+          </p>
+        </div>
+
+        <div className="text-center">
+          <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
+            How?
+          </h2>
+          <p className="font-open-sans text-lg sm:text-xl leading-relaxed text-white/80">
+            An avatar that represents individual users by training on their own activity, how they show up on topics that matters. Your avatar then does the screening process for you. All those tricky conversations you wished you had way earlier with people that showed their true colors? - already covered. And thats where the AI stops
+          </p>
+        </div>
+
+        <div className="text-center">
+          <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
             You stay in control
           </h2>
-          <p className="font-sans font-light text-xl leading-relaxed text-white/80">
-            Yes its still AI assisted, but this might probably turn out to be the best usage of AI. Here it helps you set your own thresholds for your space. You decide who gets through. You meet people as who they are at where you are. No compromises. And maybe finally make even meeting strangers fun and exciting for everyone.
-          </p>
-          <p className="font-serif font-bold text-3xl sm:text-4xl text-center mt-12">
-            Welcome to the world of being Real
+          <p className="font-open-sans text-lg sm:text-xl leading-relaxed text-white/80">
+            The platform then just does the boring task of finding people you&apos;d genuinely vibe with, based on your preferences and the thresholds you set for your presence. You decide who gets through. You meet people as who they are, at where you are. No compromises. So You don&apos;t have to deal with the cold meaningless &ldquo;Hey whaddup&rdquo; messages. So you spend your time exactly how you want to, being exactly who you are. So that when you actually talk with someone, you can be present, not worried about paying salaries to all those guards you&apos;ve employed over the years to protect you. So that when you live, you&apos;re actually living..
           </p>
         </div>
 
       </section>
+
+      {/* Closing block */}
+      <div className="max-w-3xl mx-auto px-6 pb-20 text-center">
+        <p className="font-poppins font-bold text-3xl sm:text-4xl mb-4">
+          Welcome to the world of being Real
+        </p>
+        <p className="font-open-sans text-lg sm:text-xl text-white/80">
+          Let&apos;s make meeting strangers fun and exciting again
+        </p>
+      </div>
 
       <hr className="border-white/10 max-w-3xl mx-auto" />
 
