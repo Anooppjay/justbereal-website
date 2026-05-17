@@ -15,7 +15,7 @@ export default function BetaDownloadPage() {
 
         <a
           href={apkUrl}
-          className="inline-block font-sans font-light text-sm tracking-widest uppercase border border-white/20 px-8 py-4 hover:bg-white hover:text-black transition-colors mb-16"
+          className="inline-block font-sans font-light text-sm tracking-widest uppercase border border-white/20 rounded-full px-8 py-4 hover:bg-white hover:text-black transition-colors mb-16"
         >
           Download APK
         </a>

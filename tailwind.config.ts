@@ -15,9 +15,10 @@ const config: Config = {
       fontFamily: {
         serif: ["var(--font-cormorant)", "Georgia", "serif"],
         sans: ["var(--font-josefin)", "Helvetica Neue", "sans-serif"],
-        tenor: ["var(--font-tenor)", "Georgia", "serif"],
+        playfair: ["var(--font-playfair)", "Georgia", "serif"],
         poppins: ["var(--font-poppins)", "Helvetica Neue", "sans-serif"],
         "open-sans": ["var(--font-open-sans)", "Helvetica Neue", "sans-serif"],
+        outfit: ["var(--font-outfit)", "system-ui", "sans-serif"],
       },
     },
   },

@@ -1,5 +1,5 @@
 ﻿import type { Metadata } from "next";
-import { Cormorant_Garamond, Josefin_Sans, Tenor_Sans, Poppins, Open_Sans } from "next/font/google";
+import { Cormorant_Garamond, Josefin_Sans, Playfair_Display, Poppins, Open_Sans, Outfit } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -18,10 +18,10 @@ const josefin = Josefin_Sans({
   display: "swap",
 });
 
-const tenorSans = Tenor_Sans({
+const playfair = Playfair_Display({
   subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font-tenor",
+  weight: ["400", "500", "600"],
+  variable: "--font-playfair",
   display: "swap",
 });
 
@@ -36,6 +36,13 @@ const openSans = Open_Sans({
   subsets: ["latin"],
   weight: ["400", "600"],
   variable: "--font-open-sans",
+  display: "swap",
+});
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-outfit",
   display: "swap",
 });
 
@@ -58,7 +65,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${josefin.variable} ${tenorSans.variable} ${poppins.variable} ${openSans.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${josefin.variable} ${playfair.variable} ${poppins.variable} ${openSans.variable} ${outfit.variable}`}>
       <body className="antialiased bg-black text-white min-h-screen flex flex-col">
         <Nav />
         <main className="flex-1">{children}</main>
