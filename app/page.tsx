@@ -13,7 +13,7 @@ export default function Home() {
         className="relative w-full h-[60vh] sm:h-[70vh] bg-[url('/hero.jpg')] bg-cover bg-center flex items-start justify-center pt-[10%]"
       >
         <div className="absolute inset-0 bg-black/50" />
-        <p className="relative font-playfair text-2xl sm:text-3xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
+        <p className="relative font-oswald text-2xl sm:text-3xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
           Time to have some real conversations
         </p>
       </div>
@@ -23,9 +23,9 @@ export default function Home() {
         <h1 className="font-outfit font-bold text-7xl sm:text-8xl leading-none tracking-tight mb-1">
           Just Be Real.
         </h1>
-        <p className="font-sans font-light text-xl sm:text-2xl tracking-widest uppercase text-white/60">
-          Authentic human connections.
-        </p>
+        <span className="inline-block bg-white/30 backdrop-blur-md rounded-full shadow-xl border border-white/40 px-6 py-2 font-sacramento text-2xl sm:text-3xl text-white">
+          authentic human connections.
+        </span>
       </section>
 
       <hr className="border-white/10 max-w-3xl mx-auto" />
@@ -112,12 +112,12 @@ export default function Home() {
 
       {/* Beta signup — Block 1: image banner with overlay */}
       <div className="relative w-full h-[40vh] sm:h-[50vh] bg-[url('/hero2.jpg')] bg-cover bg-center flex items-center justify-center">
-        <div className="relative text-center px-8 py-8 max-w-2xl mx-auto bg-white/80 backdrop-blur-sm rounded-2xl">
-          <h2 className="font-serif font-bold text-4xl sm:text-5xl text-black mb-4">For the pathfinders of change</h2>
-          <p className="font-sans font-light text-2xl leading-relaxed text-black/80">
+        <div className="relative text-center px-8 py-8 max-w-2xl mx-auto bg-white/30 backdrop-blur-md rounded-2xl shadow-xl border border-white/40">
+          <h2 className="font-serif font-bold text-4xl sm:text-5xl text-white mb-4">For the pathfinders of change</h2>
+          <p className="font-sans font-light text-2xl leading-relaxed text-white/90">
             The light bringers who still believes in magic:
           </p>
-          <p className="font-sans font-light text-2xl leading-relaxed text-black/80 mt-4">
+          <p className="font-sans font-light text-2xl leading-relaxed text-white/90 mt-4">
             Real connections start somewhere, lets begin by igniting those conversations you feel are must have&apos;s
           </p>
         </div>
