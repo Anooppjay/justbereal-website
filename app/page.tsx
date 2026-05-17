@@ -23,7 +23,7 @@ export default function Home() {
         <h1 className="font-outfit font-bold text-7xl sm:text-8xl leading-none tracking-tight mb-1">
           Just Be Real.
         </h1>
-        <span className="inline-block bg-white/30 backdrop-blur-md rounded-full shadow-xl border border-white/40 px-6 py-2 font-sacramento text-2xl sm:text-3xl text-white">
+        <span className="inline-block bg-white/30 backdrop-blur-md rounded-full shadow-xl border border-white/40 px-8 py-3 font-sacramento text-4xl sm:text-5xl text-white">
           authentic human connections.
         </span>
       </section>
