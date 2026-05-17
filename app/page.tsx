@@ -112,13 +112,12 @@ export default function Home() {
 
       {/* Beta signup — Block 1: image banner with overlay */}
       <div className="relative w-full h-[40vh] sm:h-[50vh] bg-[url('/hero2.jpg')] bg-cover bg-center flex items-center justify-center">
-        <div className="absolute inset-0 bg-black/50" />
-        <div className="relative text-center px-6 max-w-2xl mx-auto">
-          <h2 className="font-serif font-bold text-4xl sm:text-5xl text-white mb-4">For the pathfinders of change</h2>
-          <p className="font-sans font-light text-xl leading-relaxed text-white/80">
+        <div className="relative text-center px-8 py-8 max-w-2xl mx-auto bg-white/80 backdrop-blur-sm rounded-2xl">
+          <h2 className="font-serif font-bold text-4xl sm:text-5xl text-black mb-4">For the pathfinders of change</h2>
+          <p className="font-sans font-light text-2xl leading-relaxed text-black/80">
             The light bringers who still believes in magic:
           </p>
-          <p className="font-sans font-light text-xl leading-relaxed text-white/80 mt-4">
+          <p className="font-sans font-light text-2xl leading-relaxed text-black/80 mt-4">
             Real connections start somewhere, lets begin by igniting those conversations you feel are must have&apos;s
           </p>
         </div>
