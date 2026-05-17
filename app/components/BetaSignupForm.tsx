@@ -43,7 +43,7 @@ export default function BetaSignupForm() {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
-        className="bg-transparent border border-white/20 rounded-none px-4 py-3 font-sans font-light text-sm text-white placeholder-white/30 focus:outline-none focus:border-white/60 transition-colors"
+        className="bg-[#F2F2F7] border-none rounded-xl px-4 py-3 font-open-sans text-sm text-black placeholder-black/40 focus:outline-none"
       />
       <input
         type="text"
@@ -51,12 +51,12 @@ export default function BetaSignupForm() {
         value={code}
         onChange={(e) => setCode(e.target.value)}
         required
-        className="bg-transparent border border-white/20 rounded-none px-4 py-3 font-sans font-light text-sm text-white placeholder-white/30 focus:outline-none focus:border-white/60 transition-colors"
+        className="bg-[#F2F2F7] border-none rounded-xl px-4 py-3 font-open-sans text-sm text-black placeholder-black/40 focus:outline-none"
       />
       <button
         type="submit"
         disabled={status === 'loading'}
-        className="font-sans font-light text-sm tracking-widest uppercase border border-white/20 px-6 py-3 hover:bg-white hover:text-black transition-colors disabled:opacity-50"
+        className="font-poppins font-semibold text-sm rounded-full bg-black text-white border border-white/20 px-8 py-3 hover:opacity-80 transition-opacity disabled:opacity-50"
       >
         {status === 'loading' ? 'Submitting...' : 'Get beta access'}
       </button>
