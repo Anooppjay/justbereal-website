@@ -43,7 +43,7 @@ export default function BetaSignupForm() {
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         required
-        className="bg-[#F2F2F7] border-none rounded-xl px-4 py-3 font-open-sans text-sm text-black placeholder-black/40 focus:outline-none"
+        className="bg-[#F2F2F7] border-none rounded-xl px-4 py-3 font-finlandica text-sm text-black placeholder-black/40 focus:outline-none"
       />
       <input
         type="text"
@@ -51,7 +51,7 @@ export default function BetaSignupForm() {
         value={code}
         onChange={(e) => setCode(e.target.value)}
         required
-        className="bg-[#F2F2F7] border-none rounded-xl px-4 py-3 font-open-sans text-sm text-black placeholder-black/40 focus:outline-none"
+        className="bg-[#F2F2F7] border-none rounded-xl px-4 py-3 font-finlandica text-sm text-black placeholder-black/40 focus:outline-none"
       />
       <button
         type="submit"
