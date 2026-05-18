@@ -35,16 +35,25 @@ export default function Home() {
 
         <div className="text-center">
           <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
-            Conversations has been at centre stage
+            There&apos;s an app for everything today
           </h2>
           <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80">
-            of civilisation for a while now. It&apos;s how we used to know people, express ourselves, learn, play, debate, fight, love, care, inspire, build communities and experience the journey of the outwards world.. Conversations bring humans together and remains one of the most beautiful expressions of humanity. The tools that we developed to keep us connected though, has contributed more to the isolation of the individual lately, at scale. In a carefully crafted bubble of feed made by exploitative algorithms thats trying to monetise every tiny bit of information they can find about you and suggest your next purchase or subscription, You get uninspired, disconnected..
+            Other than the basic stuff, things that matters the most - like real human connections.
+          </p>
+          <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80 mt-6">
+            Conversations have been the scaffolding of civilisation for a while now. It&apos;s how we used to know people, express ourselves, learn, play, debate, fight, love, care, inspire, build communities and experience the journey of the outwards world.. Curiosity brings humans together and conversations remain one of the awesomest, beautiful, expressions of humanity.
+          </p>
+          <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80 mt-6">
+            The tools that we embraced to keep us connected though, has contributed more to the disengagement of the individual lately, at scale. Living in a meticulously crafted bubble of feeds made by exploitative, predatory algorithms thats trying to monetise all the interests you have and every tiny bit of information they can find about you to suggest your next purchase or subscription, You get uninspired, disconnected and isolated within.
+          </p>
+          <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80 mt-6">
+            You seek the real stuff..
           </p>
         </div>
 
         <div className="text-center">
           <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
-            You&apos;re starting to feel you don&apos;t know whats real anymore online
+            You&apos;re also starting to feel like you don&apos;t know whats real anymore online
           </h2>
           <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80">
             and you&apos;re tired of this shit across platforms. You don&apos;t have time or energy for fake and shallow interactions. You&apos;ve already started dreaming about a peaceful life on a cozy mountain top/beach cabin with a dog. You cant be bothered enough to be constantly worrying something is AI or not. And what kind of unhealed issue you&apos;re dealing with, in the next interesting human you&apos;re coming across.
