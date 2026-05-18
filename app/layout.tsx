@@ -1,5 +1,5 @@
 ﻿import type { Metadata } from "next";
-import { Cormorant_Garamond, Josefin_Sans, Oswald, Poppins, Finlandica, Outfit, Sacramento } from "next/font/google";
+import { Cormorant_Garamond, Josefin_Sans, Oswald, Poppins, Comfortaa, Outfit, Sacramento } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -32,11 +32,10 @@ const poppins = Poppins({
   display: "swap",
 });
 
-const finlandica = Finlandica({
+const comfortaa = Comfortaa({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-finlandica",
-  display: "swap",
+  variable: "--font-comfortaa",
 });
 
 const outfit = Outfit({
@@ -73,7 +72,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cormorant.variable} ${josefin.variable} ${oswald.variable} ${poppins.variable} ${finlandica.variable} ${outfit.variable} ${sacramento.variable}`}>
+    <html lang="en" className={`${cormorant.variable} ${josefin.variable} ${oswald.variable} ${poppins.variable} ${comfortaa.variable} ${outfit.variable} ${sacramento.variable}`}>
       <body className="antialiased bg-black text-white min-h-screen flex flex-col">
         <Nav />
         <main className="flex-1">{children}</main>
