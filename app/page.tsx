@@ -14,7 +14,7 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-black/50" />
         <p className="relative font-oswald text-2xl sm:text-3xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
-          Time to have some real conversations
+          What do you seek, human?
         </p>
       </div>
 
@@ -105,6 +105,9 @@ export default function Home() {
         </p>
         <p className="font-open-sans text-lg sm:text-xl text-white/80">
           Let&apos;s make meeting strangers fun and exciting again
+        </p>
+        <p className="font-oswald text-2xl sm:text-3xl tracking-widest uppercase text-white drop-shadow-md text-center mt-4">
+          Let&apos;s have some real conversations
         </p>
       </div>
 
