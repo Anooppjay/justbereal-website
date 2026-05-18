@@ -113,7 +113,7 @@ export default function Home() {
           Welcome to the world of being Real
         </p>
         <p className="font-comfortaa text-lg sm:text-xl text-white/80">
-          Let&apos;s make meeting strangers fun and exciting again
+          Let&apos;s make meeting humans fun and exciting again
         </p>
         <p className="font-oswald text-2xl sm:text-3xl tracking-widest uppercase text-white drop-shadow-md text-center mt-4">
           Let&apos;s have some real conversations
