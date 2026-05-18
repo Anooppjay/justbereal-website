@@ -64,6 +64,16 @@ export default function About() {
         </p>
       </section>
 
+      <hr className="border-white/10" />
+
+      {/* Where we are */}
+      <section className="space-y-4">
+        <h2 className="font-poppins font-semibold text-2xl sm:text-3xl">Where we are</h2>
+        <p className="font-open-sans text-lg sm:text-xl leading-relaxed text-white/80">
+          Based in Kochi, Kerala, India. This is a single person operation building something that hopefully helps, without selling out or seeking corporate investment.
+        </p>
+      </section>
+
     </div>
   );
 }
