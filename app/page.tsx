@@ -13,7 +13,7 @@ export default function Home() {
         className="relative w-full h-[60vh] sm:h-[70vh] bg-[url('/hero.jpg')] bg-cover bg-center flex items-start justify-center pt-[10%]"
       >
         <div className="absolute inset-0 bg-black/50" />
-        <p className="relative font-oswald text-2xl sm:text-3xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
+        <p className="relative font-oswald text-3xl sm:text-5xl tracking-widest uppercase text-white drop-shadow-md text-center px-6">
           What do you seek, human?
         </p>
       </div>
