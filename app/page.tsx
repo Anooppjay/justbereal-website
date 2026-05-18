@@ -44,7 +44,7 @@ export default function Home() {
 
         <div className="text-center">
           <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
-            You don&apos;t know whats real anymore
+            You&apos;re starting to feel you don&apos;t know whats real anymore online
           </h2>
           <p className="font-finlandica text-lg sm:text-xl leading-relaxed text-white/80">
             and you&apos;re tired of this shit across platforms. You don&apos;t have time or energy for fake and shallow interactions. You&apos;ve already started dreaming about a peaceful life on a cozy mountain top/beach cabin with a dog. You cant be bothered enough to be constantly worrying something is AI or not. And what kind of unhealed issue you&apos;re dealing with, in the next interesting human you&apos;re coming across.
