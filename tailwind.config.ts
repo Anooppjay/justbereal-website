@@ -17,7 +17,7 @@ const config: Config = {
         sans: ["var(--font-josefin)", "Helvetica Neue", "sans-serif"],
         oswald: ["var(--font-oswald)", "Impact", "sans-serif"],
         poppins: ["var(--font-poppins)", "Helvetica Neue", "sans-serif"],
-        finlandica: ["var(--font-finlandica)", "Georgia", "serif"],
+        comfortaa: ["var(--font-comfortaa)", "system-ui", "sans-serif"],
         outfit: ["var(--font-outfit)", "system-ui", "sans-serif"],
       sacramento: ["var(--font-sacramento)", "cursive"],
       },

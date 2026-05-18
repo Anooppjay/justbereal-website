@@ -37,7 +37,7 @@ export default function Home() {
           <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
             Conversations has been at centre stage
           </h2>
-          <p className="font-finlandica text-lg sm:text-xl leading-relaxed text-white/80">
+          <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80">
             of civilisation for a while now. It&apos;s how we used to know people, express ourselves, learn, play, debate, fight, love, care, inspire, build communities and experience the journey of the outwards world.. Conversations bring humans together and remains one of the most beautiful expressions of humanity. The tools that we developed to keep us connected though, has contributed more to the isolation of the individual lately, at scale. In a carefully crafted bubble of feed made by exploitative algorithms thats trying to monetise every tiny bit of information they can find about you and suggest your next purchase or subscription, You get uninspired, disconnected..
           </p>
         </div>
@@ -46,7 +46,7 @@ export default function Home() {
           <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
             You&apos;re starting to feel you don&apos;t know whats real anymore online
           </h2>
-          <p className="font-finlandica text-lg sm:text-xl leading-relaxed text-white/80">
+          <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80">
             and you&apos;re tired of this shit across platforms. You don&apos;t have time or energy for fake and shallow interactions. You&apos;ve already started dreaming about a peaceful life on a cozy mountain top/beach cabin with a dog. You cant be bothered enough to be constantly worrying something is AI or not. And what kind of unhealed issue you&apos;re dealing with, in the next interesting human you&apos;re coming across.
           </p>
         </div>
@@ -55,7 +55,7 @@ export default function Home() {
           <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
             The hopeful part is, theres still nothing else like a good conversation with someone you actually vibe with and trust
           </h2>
-          <p className="font-finlandica text-lg sm:text-xl leading-relaxed text-white/80">
+          <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80">
             We needed to bring back the trust. The key, apparently is actually very simple: Accountability in interactions. We need spaces that celebrates unmoderated expression and freedom. We also need these spaces to remain safe for everyone. We need to bring the change we so desperately need and do it together.
           </p>
         </div>
@@ -64,7 +64,7 @@ export default function Home() {
           <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
             It started with the vision of a platform
           </h2>
-          <p className="font-finlandica text-lg sm:text-xl leading-relaxed text-white/80">
+          <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80">
             that empowers real connections through real communication. A new platform that addresses all these challenges without sucking the life out of the process. A platform upholding user privacy. Operate using minimal device access &amp; user data tracking but engaging with participation and intend instead. With the ability to connect people based on their capacity to hold real conversations and how much they prefer to see and be seen..
           </p>
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
           <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
             They say all AI is not bad
           </h2>
-          <p className="font-finlandica text-lg sm:text-xl leading-relaxed text-white/80">
+          <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80">
             So we built an AI safety stack that might actually turn out to be the best usage of AI - To cut the noise out.
           </p>
         </div>
@@ -82,7 +82,7 @@ export default function Home() {
           <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
             How?
           </h2>
-          <p className="font-finlandica text-lg sm:text-xl leading-relaxed text-white/80">
+          <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80">
             An avatar that represents individual users by training on their own activity, how they show up on topics that matters. Your avatar then does the screening process for you. All those tricky conversations you wished you had way earlier with people that showed their true colors? - already covered. And thats where the AI stops
           </p>
         </div>
@@ -91,7 +91,7 @@ export default function Home() {
           <h2 className="font-poppins font-semibold text-2xl sm:text-3xl mb-6">
             You stay in control
           </h2>
-          <p className="font-finlandica text-lg sm:text-xl leading-relaxed text-white/80">
+          <p className="font-comfortaa text-lg sm:text-xl leading-relaxed text-white/80">
             The platform then just does the boring task of finding people you&apos;d genuinely vibe with, based on your preferences and the thresholds you set for your presence. You decide who gets through. You meet people as who they are, at where you are. No compromises. So You don&apos;t have to deal with the cold meaningless &ldquo;Hey whaddup&rdquo; messages. So you spend your time exactly how you want to, being exactly who you are. So that when you actually talk with someone, you can be present, not worried about paying salaries to all those guards you&apos;ve employed over the years to protect you. So that when you live, you&apos;re actually living..
           </p>
         </div>
@@ -103,7 +103,7 @@ export default function Home() {
         <p className="font-poppins font-bold text-3xl sm:text-4xl mb-4">
           Welcome to the world of being Real
         </p>
-        <p className="font-finlandica text-lg sm:text-xl text-white/80">
+        <p className="font-comfortaa text-lg sm:text-xl text-white/80">
           Let&apos;s make meeting strangers fun and exciting again
         </p>
         <p className="font-oswald text-2xl sm:text-3xl tracking-widest uppercase text-white drop-shadow-md text-center mt-4">
